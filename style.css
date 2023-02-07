@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: none;
+}
+
+body{
+    background: rgba(0, 0, 255, .7);
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.age_calc{
+    width: 50rem;
+    min-height: 10rem;
+    /* border: .1rem solid red; */
+    height: auto;
+    margin: 3rem auto;
+    border-radius: 1.3rem;
+    background: #eee;
+    position: relative;
+    /* padding: 1.5rem; */
+    overflow: hidden;
+}
+
+.head{
+    text-align: center;
+    /* border: .1rem solid red; */
+    padding: 1rem 0;
+    color: darkblue;
+    width: 100%;
+    box-shadow: 0px 2px #bababa;
+    background: #fff;
+}
+
+.head h3{
+    font-size: 2rem;
+}
+
+.base{
+    margin-top: 3rem;
+}
+
+label{
+    display: block;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 255, .8);
+    font-weight: 500;
+    margin-bottom: .5rem;
+} 
+
+.base{
+    /* border: .1rem solid red; */
+    width: 13rem;
+    padding: 1rem;
+    display: inline-block;
+    margin-left: 2.5rem;
+    float: left;
+}
+
+input[type="text"]{
+    padding: .6rem;
+    border-radius: .3rem;
+    border: .1rem solid rgba(0, 0, 255, .8);
+    text-align: left;
+}
+input[type="text"]:focus{
+    background: white;
+    border: .1rem solid black;
+}
+
+input[type="submit"]{
+    display: inline-block;
+    /* border: .1rem solid black; */
+    padding: .6rem .8rem;
+    background: blue;
+    color: white;
+    margin-top: 2rem;
+    border-radius: .2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.button{
+    text-align: center;
+    margin: 1rem 0;
+}
+input[type="submit"]:hover{
+    opacity: .8;
+}
+
+.display{
+    display: block;
+    /* border: .1rem solid red; */
+    margin: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: navy;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+/* .base{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+}
+
